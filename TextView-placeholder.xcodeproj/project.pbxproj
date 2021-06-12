@@ -60,17 +60,33 @@
 		ABAFB5AA267449160095415F /* TextView-placeholder */ = {
 			isa = PBXGroup;
 			children = (
+				ABAFB5C32674563B0095415F /* Views */,
+				ABAFB5C4267456430095415F /* Controllers */,
 				ABAFB5AB267449160095415F /* AppDelegate.swift */,
 				ABAFB5AD267449160095415F /* SceneDelegate.swift */,
-				ABAFB5AF267449160095415F /* ViewController.swift */,
-				ABAFB5BF267454350095415F /* PlaceTextView.xib */,
-				ABAFB5C1267454460095415F /* PlaceTextView.swift */,
-				ABAFB5B1267449160095415F /* Main.storyboard */,
 				ABAFB5B42674491C0095415F /* Assets.xcassets */,
 				ABAFB5B62674491C0095415F /* LaunchScreen.storyboard */,
 				ABAFB5B92674491C0095415F /* Info.plist */,
 			);
 			path = "TextView-placeholder";
+			sourceTree = "<group>";
+		};
+		ABAFB5C32674563B0095415F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABAFB5B1267449160095415F /* Main.storyboard */,
+				ABAFB5C1267454460095415F /* PlaceTextView.swift */,
+				ABAFB5BF267454350095415F /* PlaceTextView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ABAFB5C4267456430095415F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABAFB5AF267449160095415F /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
