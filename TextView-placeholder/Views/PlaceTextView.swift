@@ -38,7 +38,9 @@ final class PlaceTextView: UITextView {
         
         NSLayoutConstraint.activate([
             placeHolderLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 7),
+            placeHolderLabel.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: 7),
             placeHolderLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 5),
+            placeHolderLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 5)
         ])
         
     }
